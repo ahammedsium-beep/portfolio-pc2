@@ -21,7 +21,7 @@ header
 
 nav
 {
-    width: 61%;
+    width: 71%;
     max-width: 1140px;
     margin: 0 auto;
     display: flex;
@@ -62,11 +62,12 @@ header a
     border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .hero-text-container
 {
-    margin: 66px 38px 0px 230px;
+    margin: 66px 0px 0px 230px;
 }
 
 .hero-text-container h2
@@ -103,4 +104,54 @@ header a
     justify-content: center;
     align-items: center;
     margin: 46px 38px 0 0;
+}
+
+#about
+{
+    padding-top: 131px;
+}
+
+#about .about-container
+{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding: 131px 156px;
+}
+
+.section-heading h2
+{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.section-heading p
+{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.card-container
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cards p
+{
+    font-size: 20px;
+    color: #757575;
+    font-weight: normal;
+}
+
+.cards h4
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
 }
